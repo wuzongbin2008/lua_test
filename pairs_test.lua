@@ -1,6 +1,6 @@
 local base = 		_G
 
-local UNISTORE_PROJECTS = {
+local PROJECTS = {
 	[0]		= {
 		name			= 'sandbox',
 		max_size		= 500000,
@@ -9,27 +9,27 @@ local UNISTORE_PROJECTS = {
 	[1]		= {
 		name			= 'video',
 		max_size		= 2000000000,
-		skey			= [[os[n@cW8b8oKHpJJh%s_|9Ux5MN`AXK8]],
+		skey			= [[aaa]],
 	},
 	[2]		= {
 		name			= 'tuding',
 		max_size		= 3000000000,
-		skey			= [[L:c|k/\yHo>pbW]E=qchLc^}`g$]z//B]],
+		skey			= [[bbbbb]],
 	},
 	[3]		= {
 		name			= 'miaopai',
 		max_size		= 500000000,
-		skey			= [[/n9WQl@=396]K/<=5LTRzF@g9[:+T]_&]],
+		skey			= [[ccccccc]],
 	},
 	[4]     = {
 		name            = 'wbcamer',
 		max_size        = 500000000,
-		skey            = [[Om@Id$Quav{og(iAc>vi=ov+wuCs;E)O]],
+		skey            = [[dddddddd]],
 	},
 }
 
 local function get_project_no(name)
-	for k, v in base.pairs(UNISTORE_PROJECTS) do
+	for k, v in base.pairs(PROJECTS) do
 		if v.name == name then
 			return k
 		end

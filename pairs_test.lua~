@@ -38,7 +38,7 @@ local function get_project_no(name)
 	return nil
 end
 
-no = get_project_no('video')
+no = get_project_no('tuding')
 
 print(no)
 
